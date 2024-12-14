@@ -9,7 +9,7 @@ Power arr[3];
 
 FILE* input_file = fopen("input.txt", "r");
 FILE* output_file = fopen("output.txt", "w");
-FILE* graphics = popen("gnuplot -persistent", "w");  // -persistent - окно не закрывается после выполнения программы
+FILE* graphics = popen("gnuplot -persistent", "w");  // -persistent - окно не закр. после выполнения программы
 double U = 0, k = 0, f = 0, Pa;
 
 // Функция для считывания данных из файла
